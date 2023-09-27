@@ -2,8 +2,8 @@ package lang.print.gaps.finalModuleTask;
 
 public class TemperatureConverter {
     public void toFahrenheit(int temperatureCelsius){
-        temperatureCelsius = temperatureCelsius*9/5 + 32;
-        float fahrenheit = (float)temperatureCelsius;
+        float fahrenheit = (float) temperatureCelsius;
+        fahrenheit = fahrenheit*9/5 + 32;
         System.out.println(fahrenheit);
     }
 }
